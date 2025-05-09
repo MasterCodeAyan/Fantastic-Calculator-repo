@@ -2,7 +2,7 @@ from math import sqrt
 
 def start_normal_Cal():
     print("Welcome to the fantastic calculator!")
-    print("If you want to do advance calculations press 'a' and for normal press 'n'")
+    print("If you want to do advance calculations press 'a' and for normal press 'n'").lower()
     Cal = (input(""))
 
     if (Cal == "a"):
